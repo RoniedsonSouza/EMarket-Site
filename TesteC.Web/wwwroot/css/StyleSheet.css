@@ -1,0 +1,32 @@
+﻿body {
+}
+
+a:hover{
+    color: inherit !important;
+    text-decoration: none;
+}
+
+.menu-itens li{
+    padding: 2.5em .5em;
+}
+
+    .menu-itens .nav-link a:hover {
+        color: #900C3F;
+    }
+
+.logo {
+    color: inherit;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin: auto 9em;
+}
+
+.como-comprar a {
+    border-left: 2px solid #900C3F;
+    padding: 0.5rem 1.2em;
+    display: block;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
